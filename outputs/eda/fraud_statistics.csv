@@ -1,0 +1,9 @@
+Metric,Value
+Total Transactions,5000.0
+Legitimate Transactions,4900.0
+Fraudulent Transactions,100.0
+Fraud Percentage,2.0
+Average Fraud Amount,45.35421675784782
+Average Legitimate Amount,31.988671964666693
+Median Fraud Amount,17.680166542572017
+Median Legitimate Amount,19.83152705280132

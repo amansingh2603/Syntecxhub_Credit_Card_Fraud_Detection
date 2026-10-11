@@ -1,0 +1,50 @@
+======================================================================
+CREDIT CARD FRAUD DETECTION
+FINAL MODEL VALIDATION REPORT
+======================================================================
+
+1. FINAL MODEL CONFIGURATION
+----------------------------------------
+Model: XGBoost
+Sampling Strategy: SMOTE
+
+2. STANDARD TEST-SET PERFORMANCE
+----------------------------------------
+Accuracy:  0.9970
+Precision: 0.9048
+Recall:    0.9500
+F1 Score:  0.9268
+ROC-AUC:   0.9997
+
+3. CONFUSION MATRIX
+----------------------------------------
+True Negatives:  978
+False Positives: 2
+False Negatives: 1
+True Positives:  19
+
+4. DECISION THRESHOLD ANALYSIS
+----------------------------------------
+Selected analytical threshold: 0.70
+Threshold Precision: 0.9048
+Threshold Recall: 0.9500
+Threshold F1 Score: 0.9268
+
+5. BUSINESS INTERPRETATION
+----------------------------------------
+Fraud detection is an imbalanced classification problem where missing fraudulent transactions can be costly.
+A lower decision threshold generally increases recall and detects more potential fraud cases, but may also increase false positives.
+A higher threshold generally increases precision, but may allow more fraudulent transactions to remain undetected.
+The selected threshold is an analytical starting point based on F1 score and should be adjusted using real business costs before production deployment.
+
+6. VALIDATION NOTES
+----------------------------------------
+• The dataset contains a severe class imbalance.
+• Sampling strategies were applied only to the training data.
+• The test set remained untouched for unbiased evaluation.
+• Precision, recall, F1 and ROC-AUC were considered together.
+• Model selection based only on accuracy is not appropriate for this fraud detection problem.
+
+======================================================================
+END OF FINAL VALIDATION REPORT
+======================================================================

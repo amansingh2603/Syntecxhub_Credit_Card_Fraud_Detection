@@ -1,0 +1,19 @@
+CREDIT CARD FRAUD DETECTION
+BUSINESS DECISION THRESHOLD REPORT
+============================================================
+Selected Model: XGBoost
+Sampling Strategy: SMOTE
+Selected Threshold: 0.20
+
+Precision: 0.8696
+Recall: 1.0000
+F1-score: 0.9302
+False Positives: 3
+False Negatives: 0
+
+BUSINESS INTERPRETATION
+============================================================
+A lower decision threshold generally increases fraud detection recall but can increase false positives.
+A higher decision threshold generally increases prediction selectivity but can allow more fraud transactions to pass undetected.
+The final production threshold should be selected using the organization's estimated financial cost of false positives and false negatives.
+The current threshold is selected based on the highest F1-score among the evaluated thresholds and should be treated as an analytical starting point rather than a universal production threshold.

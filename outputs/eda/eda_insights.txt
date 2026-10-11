@@ -1,0 +1,11 @@
+CREDIT CARD FRAUD DETECTION - EDA INSIGHTS
+============================================================
+Total transactions: 5,000
+Fraudulent transactions: 100
+Fraud percentage: 2.0000%
+Average fraud transaction amount: 45.35
+Average legitimate transaction amount: 31.99
+The target variable is highly imbalanced.
+Accuracy alone should not be used as the primary model evaluation metric.
+Precision and recall are particularly important for fraud detection.
+Sampling techniques should be applied only to the training data to avoid data leakage.

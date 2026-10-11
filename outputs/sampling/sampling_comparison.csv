@@ -1,0 +1,5 @@
+Sampling_Method,Total_Transactions,Legitimate,Fraud,Fraud_Percentage
+Original,4000,3920,80,2.0
+Undersampling,160,80,80,50.0
+Oversampling,7840,3920,3920,50.0
+SMOTE,7840,3920,3920,50.0
